@@ -43,6 +43,18 @@ my $key = [
 	  "key" => [ "KEY_SUSPEND" ],
 	  "cmd" => "systemctl reboot -i"
     },
+	{ 
+	  "key" => [ "KEY_SWITCHVIDEOMODE" ],
+	  "cmd" => "/usr/bin/mpc random"
+    },
+	{ 
+	  "key" => [ "KEY_REFRESH" ],
+	  "cmd" => "/usr/bin/mpcu"
+    },
+	{ 
+	  "key" => [ "KEY_RED", "KEY_GREEN", "KEY_YELLOW", "KEY_BLUE" ],
+	  "cmd" => "cp /boot/wlan0-default /boot/wlan0-config"
+    },
 ];
 
 

@@ -1,0 +1,9 @@
+Description='Automatically generated profile by wifi-menu'
+Interface=wlan0
+Connection=wireless
+Security=none
+ESSID=musicbox
+IP=dhcp
+TimeoutUp=10
+TimeoutCarrier=10
+
