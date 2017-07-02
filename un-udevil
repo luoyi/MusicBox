@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+A=$(/usr/bin/mount |grep '/var/lib/mpd')
+
+D=($A)
+
+echo "udevil umount $D"
+
+/usr/bin/udevil umount  $D
+
