@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+cp /usr/bin/ir-init .
+cp /usr/lib/systemd/system/ir.service .
+cp /etc/udevil/udevil.conf .
+cp /etc/rc_keymaps/digitv .
+cp /etc/mpd.conf .
+
+
+

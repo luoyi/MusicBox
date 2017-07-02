@@ -1,0 +1,10 @@
+[Unit]
+Description=IR Protocol init service
+Requires=network.target local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/ir-init
+
+[Install]
+WantedBy=multi-user.target

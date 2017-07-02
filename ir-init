@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+echo '+nec' >/sys/class/rc/rc0/protocols
+/usr/bin/ir-keytable -p nec -w /etc/rc_keymaps/digitv
+
+
