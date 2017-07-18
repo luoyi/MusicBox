@@ -52,6 +52,10 @@ my $key = [
 	  "cmd" => "/usr/bin/mpcu"
     },
 	{ 
+	  "key" => [ "KEY_CHANNEL" ],
+	  "cmd" => "/usr/bin/mpc enable only 2"
+    },
+	{ 
 	  "key" => [ "KEY_RED", "KEY_GREEN", "KEY_YELLOW", "KEY_BLUE" ],
 	  "cmd" => "cp /boot/wlan0-default /boot/wlan0-config"
     },

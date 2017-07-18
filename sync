@@ -8,6 +8,7 @@ cp /etc/mpd.conf .
 cp /usr/bin/un-udevil .
 cp /usr/lib/systemd/system/devmon@.service .
 cp /boot/wlan0-default .
+cp /usr/lib/systemd/system/ir.service .
 
 
 
